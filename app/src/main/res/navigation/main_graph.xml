@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_graph"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.github.belyakovleonid.fragmentresultsample.list.ProductsFragment"
+        android:label="ListFragment" >
+        <action
+            android:id="@+id/action_listFragment_to_sortFragment"
+            app:destination="@id/sortFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sortFragment"
+        android:name="com.github.belyakovleonid.fragmentresultsample.sort.SortFragment"
+        android:label="SortFragment" />
+</navigation>

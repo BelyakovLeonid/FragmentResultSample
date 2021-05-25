@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FragmentResultSample</string>
+
+    <string name="sort_title">Сортировка</string>
+
+    <string name="sort_apply">Применить</string>
+    <string name="sort_default">По умолчанию</string>
+    <string name="sort_price_desc">Сначала дороже</string>
+    <string name="sort_price_asc">Сначала дешевле</string>
+    <string name="sort_rate_desc">Сначала высокий рейтинг</string>
+    <string name="sort_rate_asc">Сначала низкий рейтинг</string>
+</resources>

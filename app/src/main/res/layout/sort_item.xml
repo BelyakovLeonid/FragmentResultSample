@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button"
+    android:textColor="@color/sort_text"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/sort_btn"
+    android:gravity="center_vertical|start"
+    android:paddingHorizontal="15dp"
+    android:textAllCaps="false"
+    android:textSize="16sp"
+    tools:text="@string/sort_price_asc" />
